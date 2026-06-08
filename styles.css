@@ -139,16 +139,16 @@ nav {
 }
 
 .hero-content h1 {
-    font-size: 6rem;
-    margin-bottom: 1rem;
+    font-size: 12rem;
+    margin-bottom: 0.5rem;
     text-shadow: 0 0 20px rgba(57, 255, 20, 0.3);
 }
 
 .subtitle {
     font-family: var(--font-mono);
-    font-size: 1.2rem;
-    letter-spacing: 5px;
-    margin-bottom: 3rem;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    margin-bottom: 3.5rem;
     color: #888;
 }
 
@@ -170,35 +170,35 @@ nav {
 }
 
 .glitch::before {
-    left: 2px;
-    text-shadow: -2px 0 var(--accent-secondary);
-    clip: rect(44px, 450px, 56px, 0);
+    left: 6px;
+    text-shadow: -6px 0 var(--accent-secondary);
+    clip: rect(44px, 9999px, 56px, 0);
     animation: glitch-anim 5s infinite linear alternate-reverse;
 }
 
 .glitch::after {
-    left: -2px;
-    text-shadow: -2px 0 var(--accent-color);
-    clip: rect(44px, 450px, 56px, 0);
+    left: -6px;
+    text-shadow: 6px 0 var(--accent-color);
+    clip: rect(44px, 9999px, 56px, 0);
     animation: glitch-anim2 5s infinite linear alternate-reverse;
 }
 
 @keyframes glitch-anim {
-    0% { clip: rect(79px, 9999px, 86px, 0); }
-    20% { clip: rect(12px, 9999px, 34px, 0); }
-    40% { clip: rect(56px, 9999px, 12px, 0); }
-    60% { clip: rect(89px, 9999px, 54px, 0); }
-    80% { clip: rect(23px, 9999px, 98px, 0); }
-    100% { clip: rect(45px, 9999px, 21px, 0); }
+    0% { clip: rect(0, 0, 0, 0); }
+    20% { clip: rect(20px, 9999px, 80px, 0); }
+    40% { clip: rect(0, 0, 0, 0); }
+    60% { clip: rect(150px, 9999px, 200px, 0); }
+    80% { clip: rect(80px, 9999px, 280px, 0); }
+    100% { clip: rect(0, 0, 0, 0); }
 }
 
 @keyframes glitch-anim2 {
-    0% { clip: rect(21px, 9999px, 56px, 0); }
-    20% { clip: rect(89px, 9999px, 12px, 0); }
-    40% { clip: rect(34px, 9999px, 78px, 0); }
-    60% { clip: rect(98px, 9999px, 23px, 0); }
-    80% { clip: rect(12px, 9999px, 89px, 0); }
-    100% { clip: rect(67px, 9999px, 45px, 0); }
+    0% { clip: rect(0, 0, 0, 0); }
+    20% { clip: rect(250px, 9999px, 280px, 0); }
+    40% { clip: rect(100px, 9999px, 200px, 0); }
+    60% { clip: rect(0, 0, 0, 0); }
+    80% { clip: rect(30px, 9999px, 150px, 0); }
+    100% { clip: rect(0, 0, 0, 0); }
 }
 
 /* Glass Panels (Main Sections) */
