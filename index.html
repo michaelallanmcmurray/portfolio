@@ -3,117 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael McMurray | Operations & Media Specialist</title>
-    <meta name="description" content="Senior Support Operations Specialist & Media Producer bridging the gap between technical platforms and dynamic content execution.">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="description" content="M1A1 - Industrial Music Collaborative Project">
+    <title>M1A1.MUSIC</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="nav-content">
-            <div class="logo"><a href="#home" style="color: inherit; text-decoration: none;">Michael Allan McMurray</a></div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact" class="btn-primary-small">Contact</a></li>
-            </ul>
+    <div id="noise-overlay"></div>
+
+    <nav>
+        <a href="#hero" class="logo glitch" data-text="M1A1">M1A1</a>
+        <ul class="nav-links">
+            <li><a href="#releases">RELEASES</a></li>
+            <li><a href="https://m1a1-shop.fourthwall.com/products/m1a1-default" target="_blank" rel="noopener noreferrer">STORE</a></li>
+            <li><a href="#about">ABOUT / COLLAB</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
+    <header id="hero">
         <div class="hero-content">
-            <h1 class="fade-in">Michael McMurray</h1>
-            <h2 class="fade-in delay-1">Support Operations & Media Specialist</h2>
-            <p class="fade-in delay-2">Bridging the gap between complex technical platforms and high-volume media execution. 10 years in Web3, 5 years running support ops at Edge, and 5 years managing a freelance video production agency.</p>
-            <div class="hero-cta fade-in delay-3">
-                <a href="#contact" class="btn-primary">Get in Touch</a>
-                <a href="#experience" class="btn-secondary">View Work</a>
-            </div>
+            <h1 class="glitch" data-text="M1A1">M1A1</h1>
+            <p class="subtitle">THE INDUSTRIAL COLLECTIVE</p>
+            <a href="#releases" class="btn primary-btn">LATEST TRANSMISSION</a>
         </div>
-        <div class="hero-background">
-            <div class="gradient-sphere"></div>
-            <div class="gradient-sphere secondary"></div>
-        </div>
-    </section>
+    </header>
 
-    <!-- Experience Section -->
-    <section class="experience section" id="experience">
-        <h2 class="section-title reveal">Experience</h2>
-        <div class="timeline">
-            <!-- Edge -->
-            <div class="timeline-item reveal">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Head of Customer Success & Project Manager</h3>
-                    <h4>Edge (Airbitz Inc.) | Sep 2020 - Present</h4>
-                    <p>Architected the migration of entire support ticketing architectures (Freshdesk to Zendesk to Intercom). Developed over 750 workflow automations and macros, drastically reducing inbound ticket volume while leading a cross-functional team of 4+ agents.</p>
+    <main>
+        <section id="releases" class="glass-panel">
+            <h2>RELEASES</h2>
+            <div class="release-grid">
+                <!-- Constant (Released) -->
+                <div class="release-card">
+                    <div class="cover-wrapper">
+                        <img src="assets/m1a1.png" alt="Constant Single Cover" class="cover-art">
+                    </div>
+                    <div class="release-info">
+                        <h3>CONSTANT</h3>
+                        <p class="format">SINGLE [DIGITAL]</p>
+                        <p class="release-desc">The debut transmission. A driving digital synthesis baseline exploring themes of desire and human connection.</p>
+                        <div class="contributors">
+                            <h4>CONTRIBUTORS:</h4>
+                            <ul>
+                                <li><span class="role">Production & Arrangement:</span> Michael McMurray</li>
+                                <li><span class="role">Vocals:</span> Jack Prime</li>
+                            </ul>
+                        </div>
+                        <div class="listen-links">
+                            <a href="https://open.spotify.com/track/6le8t4RjlEFznX8BQQALjO?si=47154120da054976" target="_blank" rel="noopener noreferrer" class="btn primary-btn">SPOTIFY</a>
+                            <a href="https://music.apple.com/us/album/constant-feat-jack-prime-single/1891307367" target="_blank" rel="noopener noreferrer" class="btn primary-btn">APPLE MUSIC</a>
+                            <a href="https://music.youtube.com/watch?v=Vbwk7pi4H2w&si=2L1hMz0LX4IwCYRM" target="_blank" rel="noopener noreferrer" class="btn primary-btn">YOUTUBE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Obituaries (Upcoming) -->
+                <div class="release-card">
+                    <div class="cover-wrapper mask-watermark">
+                        <img src="assets/obituaries.png" alt="Obituaries Single Cover" class="cover-art">
+                    </div>
+                    <div class="release-info">
+                        <h3>OBITUARIES</h3>
+                        <p class="format">SINGLE [DIGITAL]</p>
+                        <p class="release-desc">A crushing wall of MS-20 style bass and heavily processed parallel vocal harmonies.</p>
+                        <div class="contributors">
+                            <h4>CONTRIBUTORS:</h4>
+                            <ul>
+                                <li><span class="role">Vocals, Arrangement & Production:</span> Michael McMurray</li>
+                                <li><span class="role">Drum Programming & Co-Production:</span> <a href="https://www.facebook.com/johnnybones1313" target="_blank" rel="noopener noreferrer">Johnny Bones</a></li>
+                            </ul>
+                        </div>
+                        <p class="format" style="margin-top: 1rem;">COMING SOON</p>
+                    </div>
+                </div>
+
+                <!-- Susan (Upcoming) -->
+                <div class="release-card">
+                    <div class="cover-wrapper">
+                        <img src="assets/susan_cover.jpg" alt="Susan Single Cover" class="cover-art">
+                    </div>
+                    <div class="release-info">
+                        <h3>SUSAN</h3>
+                        <p class="format">SINGLE [DIGITAL]</p>
+                        <p class="release-desc">A heavy electroclash transmission. A driving, distorted MS-20 bassline juxtaposed with dark, heavily harmonized vocals exploring themes of isolation and maternal absence.</p>
+                        <div class="contributors">
+                            <h4>CONTRIBUTORS:</h4>
+                            <ul>
+                                <li><span class="role">Production, Arrangement & Vocals:</span> Michael McMurray</li>
+                            </ul>
+                        </div>
+                        <div class="listen-links">
+                            <a href="https://open.spotify.com/album/52zLIlH1qnW9cPmF57trGY?si=blT5zF8lRASREIp_40d5og" target="_blank" rel="noopener noreferrer" class="btn primary-btn">SPOTIFY</a>
+                            <a href="https://music.apple.com/us/album/susan-single/6772203536" target="_blank" rel="noopener noreferrer" class="btn primary-btn">APPLE MUSIC</a>
+                            <a href="https://music.youtube.com/playlist?list=OLAK5uy_n5N4p6egoJY-tmbkL26lYflO07qpgT8bI&si=crP1rLwm1j3lHpfu" target="_blank" rel="noopener noreferrer" class="btn primary-btn">YOUTUBE</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- Freelance -->
-            <div class="timeline-item reveal">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Owner & Independent Contractor</h3>
-                    <h4>Michael Allan Freelance | Oct 2015 - Sep 2020</h4>
-                    <p>Operated an independent video production and event services business. Managed all high-touch client relations (weddings/events), deliverables tracking, and subcontractor hiring. Single-handedly configured and managed mobile point-of-sale systems, processed live sales transactions, and delivered rapid turnaround on on-site media edits.</p>
-                </div>
-            </div>
-            <!-- CSDD -->
-            <div class="timeline-item reveal">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Case Coordinator & Direct Care</h3>
-                    <h4>CSDD - Life Enrichment Academy | Oct 2009 - Oct 2015</h4>
-                    <p>Managed confidential client files and relationships, ensuring strict compliance to secure essential program funding. Developed and implemented individualized enrichment programs, providing compassionate direct care and fostering long-term success for clients.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section class="skills section" id="skills">
-        <h2 class="section-title reveal">Core Expertise</h2>
-        <div class="skills-grid reveal">
-            <div class="skill-card">
-                <div class="skill-icon">⚙️</div>
-                <h3>Technical Operations</h3>
-                <p>Zendesk, Intercom, Freshdesk, Workflow Automations, AI Macros & Full Bot Implementations, CRM Migrations</p>
-                <p style="margin-top: 10px;"><strong>Tools & AI:</strong> Asana, Google App Scripts, GitHub, AI Agents (Cursor, Claude)</p>
+        <section id="about" class="glass-panel right-align">
+            <h2>THE PROJECT</h2>
+            <div class="about-content">
+                <p>M1A1 is an industrial music project prioritizing mechanical aggression and sonic experimentation. Founded by producer Michael McMurray, it draws on his history in the local scene—combining the raw energy of punk rock outfit Gawker with the electronic foundations of Robot Says No—to create a platform built on dark digital synthesis, piercing, uncomfortable synth textures, and driving MS-20 basslines.</p>
+                <p>Lyrically, M1A1 is a raw exploration of the fractured human experience, dealing innately with themes of relationships, death, and the darker realities of life.</p>
             </div>
-            <div class="skill-card">
-                <div class="skill-icon">🎥</div>
-                <h3>Media Production</h3>
-                <p>Adobe Premiere Pro, DaVinci Resolve, FL Studio, Audio Engineering</p>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">⛓️</div>
-                <h3>Web3 & Crypto</h3>
-                <p>dApps, Fiat-to-Crypto Onramps, Transaction Troubleshooting, Key/Mnemonic Recovery</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact & Resumes Section -->
-    <section class="contact section" id="contact">
-        <div class="contact-container reveal">
-            <h2 class="section-title">Let's Connect</h2>
-            <p>Currently seeking opportunities in Tech Operations, FinOps, and Entertainment/Media.</p>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:hello@michaelallanmcmurray.com" id="email-link">hello@michaelallanmcmurray.com</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/michaelallanmcmurray/" target="_blank">linkedin.com/in/michaelallanmcmurray/</a></p>
-            </div>
-        </div>
-    </section>
+        <section id="contact" class="glass-panel">
+            <h2>CONTACT</h2>
+            <p>For booking and collaborations.</p>
+            <a href="mailto:contact@m1a1.music" class="btn primary-btn" style="margin-top: 2rem;">contact@m1a1.music</a>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2026 Michael McMurray.</p>
+        <div class="footer-links">
+            <a href="https://open.spotify.com/artist/4cYSc4OKGMQe02JOKIOQQS" target="_blank" class="footer-link">SPOTIFY</a>
+            <a href="https://music.apple.com/us/artist/m1a1/1890189139" target="_blank" class="footer-link">APPLE MUSIC</a>
+            <a href="https://music.youtube.com/channel/UCGCzrTLU4RRjC8-DHZM3rDg" target="_blank" class="footer-link">YOUTUBE</a>
+            <a href="https://instagram.com/m1a1music" target="_blank" class="footer-link">INSTAGRAM</a>
+            <a href="https://facebook.com/m1a1music" target="_blank" class="footer-link">FACEBOOK</a>
+            <a href="https://x.com/m1a1music" target="_blank" class="footer-link">X</a>
+        </div>
+        <p>&copy; 2026 M1A1.MUSIC. ALL RIGHTS RESERVED.</p>
     </footer>
 
     <script src="script.js"></script>
