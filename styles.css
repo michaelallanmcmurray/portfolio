@@ -97,7 +97,7 @@ p { color: var(--text-secondary); line-height: 1.6; }
 .hero-cta { display: flex; gap: 1rem; justify-content: center; }
 
 /* Background Blur Effects */
-.hero-background { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 0; overflow: hidden; pointer-events: none;}
+.hero-background { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; overflow: hidden; pointer-events: none;}
 .gradient-sphere {
     position: absolute;
     width: 600px; height: 600px;
@@ -176,8 +176,7 @@ p { color: var(--text-secondary); line-height: 1.6; }
 .resume-links { display: flex; justify-content: center; gap: 1rem; margin: 2rem 0; flex-wrap: wrap;}
 .resume-btn { padding: 1rem 1.5rem; background: var(--border-color); color: white; border: 1px solid #333; }
 .resume-btn:hover { background: #333; border-color: var(--accent-primary); }
-.contact-info { margin-top: 1rem; }
-.contact-info p { font-size: 1.2rem; margin-bottom: 0.5rem; }
+.contact-info p { font-size: 1.2rem; margin-bottom: 1rem; }
 .contact-info a { color: var(--accent-primary); text-decoration: none; }
 .contact-info a:hover { text-decoration: underline; }
 
